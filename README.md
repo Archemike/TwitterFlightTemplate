@@ -17,8 +17,8 @@ Stock, Agnostic, De-Coupled, Twitter Flight Component that I use for each DOM No
 Bend the DOM to your will with clarifty of Intent, that coder who takes over your SPA in 5 years will send you a hackernews thank you T-Shirt for making his life chock full of monadic zen.
 
 Four main parts to the template,
-1. Attributes 
-2. Functions 
-3. Internal Events 
-4. External Events  
+##1. Attributes 
+##2. Functions 
+##3. Internal Events 
+##4. External Events  
 Make as many of these as DOM Nodes you have and when done that concludes your SPA.
