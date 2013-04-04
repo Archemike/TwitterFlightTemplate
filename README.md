@@ -1,12 +1,12 @@
 Twitter Flight Template
 =====================
 
-fyi, coffeescript template, use http://js2coffee.org/ if you haven't attained webdev enlightenment yet :p
+fyi, coffeescript template, use <http://js2coffee.org/> if you haven't attained webdev enlightenment yet :p
 
-1) Follow instructions to install Twitter Flight using Bower, must be a repo created to AMD spec.  I use require.js.  Just follow the Twitter Flight Docs. https://github.com/twitter/flight
-2) copy flightTemplate.coffee in the directory specified for your components within your main require.coffee file.
-4) Rename the file, and the name within defineComponent function.
-5) Add an attachTo method to the area you do this in your code.  I initialize from my index.js(require.js) file, the intialize function and the attachTo's are included in an app.js file one directory deeper.  The app.js file points to all the components(js files) one directory deeper from there.
+1. Follow instructions to install Twitter Flight using Bower, must be a repo created to AMD spec.  I use require.js.  Just follow the Twitter Flight Docs. <https://github.com/twitter/flight>
+2. copy flightTemplate.coffee in the directory specified for your components within your main require.coffee file.
+3. Rename the file, and the name within defineComponent function.
+4. Add an attachTo method to the area you do this in your code.  I initialize from my index.js(require.js) file, the intialize function and the attachTo's are included in an app.js file one directory deeper.  The app.js file points to all the components(js files) one directory deeper from there.
 
 //root/js(index.js where I initialize)/app(app.js where I attachTo)/components(components created using defined Flight Templates)
 
@@ -17,4 +17,8 @@ Stock, Agnostic, De-Coupled, Twitter Flight Component that I use for each DOM No
 Bend the DOM to your will with clarifty of Intent, that coder who takes over your SPA in 5 years will send you a hackernews thank you T-Shirt for making his life chock full of monadic zen.
 
 Four main parts to the template,
-Attributes, Functions, Internal Events, External Events.  Make as many of these as DOM Nodes you have and when done that concludes your SPA.
+1. Attributes 
+2. Functions 
+3. Internal Events 
+4. External Events  
+Make as many of these as DOM Nodes you have and when done that concludes your SPA.
